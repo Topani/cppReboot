@@ -6,11 +6,21 @@ using namespace std;
 int main()
 {
 
-	cout << "Newline\n";
-	cout << "Newline with endl" << endl << endl;;
+	//Newline tests
+	cout << "Newline with \\n.\n";
+	cout << "Newline with endl." << endl << endl;;
 
-	cout << "This is a long sentence with a \r carriage return" << endl << endl;
+	//Carriage return test
+	cout << "This is a long sentence with a\rcarriage return." << endl << endl;
 
-	cout << "This is a long \b sentence\bwith\b some back\bspaces in it" << endl;
+	//Backspace test
+	cout << "This is a long\bsentence\bwith\bsome back\bspaces." << endl;
+
+	//Tab Test
+	cout << "This is a\tlong sentence\twith\tsome regular\ttabs." << endl;
+
+	//Vertical tab test
+	cout << "This is a\vlong sentence\vwith\vsome vertical\vtabs." << endl;
+
 	return 0;
 }

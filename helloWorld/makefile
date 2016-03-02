@@ -1,4 +1,5 @@
 all:hello
+
 hello: hello.o
 	g++ hello.o -o hello.out
 

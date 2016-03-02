@@ -13,7 +13,7 @@ sudo apt-get update
 sudo apt-get install g++
 ```
 ## How To Build
-All example applications and code are contained within their own separate directories. Each directory contains a makefile used to build all code contained in the directory. In order to build compile and build the code run the 'make' command as such:
+All example applications and code are contained within their own separate directories. Each directory contains a makefile used to build all code contained in the directory. In order to build and compile the code navigate to any directory containing a 'makefile' and run the 'make' command as such:
 ```shell
 make
 ```
